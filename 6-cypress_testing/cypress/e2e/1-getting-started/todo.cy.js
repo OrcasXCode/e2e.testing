@@ -10,7 +10,7 @@ describe("Testing app", () => {
     cy.get("#email").type("omsureja@gmail.com");
 
     // Fill in the password field
-    cy.get("#password").type("omsureja@100xdevs");
+    cy.get("#password").type("password");
 
     cy.get("button").eq(4).click();
 
